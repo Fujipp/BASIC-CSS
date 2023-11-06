@@ -1,7 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Kanit:wght@300&display=swap");
 body {
-    background-image: url(https://media2.giphy.com/media/l5JbspfwZ0yjHjlJ0K/giphy.gif?cid=6c09b952aikzvfo4d038yh8wffw9j0oqkbnq80ii2bry2ogo&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+  background-image: url(https://wallpapercave.com/wp/wp2757951.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  font-family: "Agbalumo", sans-serif;
+  font-weight: bold;
+  color: aqua;
 }
 
 p {
-    font-weight: bold;
+  font-family: "Agbalumo", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.box-1 {
+  background-color: #f3f3f3;
+  border: solid 5px black;
+  border-radius: 10px;
+  width: 300px;
+  height: 450px;
+  text-align: center;
+  margin: 20px;
+}
+.box-2 {
+  background-color: #f3f3f3;
+  border: dashed 5px red;
+  border-radius: 10px;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  margin: 20px;
+}
+
+.box-3 {
+  background-color: #f3f3f3;
+  border: dotted 5px purple;
+  border-radius: 10px;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  margin: 20px;
+}
+
+.contain {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
